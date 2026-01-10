@@ -1,7 +1,7 @@
 # Task 3 - Calculator Web Application
 
 ## 📌 Description
-This project is a simple calculator web application named **CalcPro** built as a part of the Codsoft Web Development Internship.
+This project is a simple calculator web application named **CalcPro** built as a part of the **CodSoft Web Development Internship**.
 It performs basic arithmetic operations and includes additional features to enhance user experience.
 
 ## 🛠️ Technologies Used
