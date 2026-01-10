@@ -71,6 +71,8 @@ CODSOFT/
     ├── style.css
     ├── script.js
     └── README.md
+```
+---
 
 ## 🎯 Notes
 - All tasks are **independent and self-contained**.
