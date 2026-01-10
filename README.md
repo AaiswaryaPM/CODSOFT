@@ -77,4 +77,4 @@ CODSOFT/
 ## 🎯 Notes
 - All tasks are **independent and self-contained**.
 - Tailwind CSS is used in **Task 1 and Task 2** for responsive and modern UI.
-- All tasks have **live demos*** via GitHub Pages.
+- All tasks have **live demos** via GitHub Pages.
