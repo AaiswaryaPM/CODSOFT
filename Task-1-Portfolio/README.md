@@ -1,7 +1,7 @@
 # Task 1 - Personal Portfolio Website
 
 ## 📌 Description
-This project is a personal portfolio website created as a part of the Codsoft Web Development Internship.
+This project is a personal portfolio website created as a part of the CodSoft Web Development Internship.
 It showcases personal details, skills, projects, certifications, and contact information in a clean and responsive layout.
 
 ## 🛠️ Technologies Used
