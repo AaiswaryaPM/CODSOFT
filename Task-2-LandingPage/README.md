@@ -1,7 +1,7 @@
 # Task 2 - Landing Page
 
 ## 📌 Description
-This project is a responsive landing page named **Orbit** developed as part of the Codsoft Web Development Internship.
+This project is a responsive landing page named **Orbit** developed as part of the **CodSoft Web Development Internship**.
 Tailwind CSS is used to create a clean, modern layout with well-structured sections and call-to-action elements.
 
 ## 🛠️ Technologies Used
