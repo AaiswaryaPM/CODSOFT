@@ -49,10 +49,10 @@ It includes three web projects demonstrating HTML, Tailwind CSS, JavaScript, and
 ---
 
 ## 📂 Repository
+```
 CODSOFT/
-│
 ├── README.md
-│ └── Main README (overview of internship + all task links)
+│ └── Main repository README
 │
 ├── Task-1-Portfolio/
 │ ├── index.html
@@ -66,11 +66,11 @@ CODSOFT/
 │ ├── script.js
 │ └── README.md
 │
-├── Task-3-Calculator/
-│ ├── index.html
-│ ├── style.css
-│ ├── script.js
-│ └── README.md
+└── Task-3-Calculator/
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    └── README.md
 
 ## 🎯 Notes
 - All tasks are **independent and self-contained**.
