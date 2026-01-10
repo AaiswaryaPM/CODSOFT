@@ -43,7 +43,7 @@ It includes three web projects demonstrating HTML, Tailwind CSS, JavaScript, and
   - History panel to track previous calculations
   - Automatically rounds off decimals
   - Error detection for invalid operations (e.g., division by zero)
-- **Live Demo:** [CalcPro] (https://aaiswaryapm.github.io/CODSOFT/Task-2-Calculator/)
+- **Live Demo:** [CalcPro] (https://aaiswaryapm.github.io/CODSOFT/Task-3-Calculator/)
 - **Task README:** [`Task-3-Calculator/README.md`] (Task-2-Calculator/README.md)
 
 ---
