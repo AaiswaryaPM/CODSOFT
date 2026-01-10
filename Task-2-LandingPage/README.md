@@ -18,7 +18,7 @@ Tailwind CSS is used to create a clean, modern layout with well-structured secti
 - Mobile-friendly design
 
 ## 🚀 Live Demo
-https'//aaiswaryapm.github.io/CODSOFT/Task-2-LandingPage/
+https://aaiswaryapm.github.io/CODSOFT/Task-2-LandingPage/
 
 ## 📂 Repository
 Part of the **CODSOFT** internship tasks repository.
