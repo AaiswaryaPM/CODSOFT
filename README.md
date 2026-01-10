@@ -28,7 +28,7 @@ It includes three web projects demonstrating HTML, Tailwind CSS, JavaScript, and
   - Modern hero section with call-to-action buttons
   - Testimonials section with carousel/slider effect
   - Mobile-friendly layout
-- **Live Demo:** [Landing Page] (https://aaiswaryapm.github.io/CODSOFT/Task-2-LandingPage/)
+- **Live Demo:** [Orbit] (https://aaiswaryapm.github.io/CODSOFT/Task-2-LandingPage/)
 - **Task README:** [`Task-2-LandingPage/README.md`] (Task-2-LandingPage/README.md)
 
 ---
