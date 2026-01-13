@@ -568,7 +568,7 @@
                         </div>
                         <div class="relative group">
                             <i data-lucide="mail" class="absolute left-4 top-4 w-5 h-5 text-slate-400 group-focus-within:text-indigo-500 transition-colors"></i>
-                            <input type="email" name="Email" id="email" required placeholder="Email Address" class="w-full pl-12 p-4 rounded-2xl bg-white/50 dark:bg-slate-800/50 border border-white/50 dark:border-slate-700 focus:ring-2 focus:ring-indigo-500 focus:bg-white dark:focus:bg-slate-800 outline-none transition-all duration-300">
+                            <input type="email" name="email" id="email" required placeholder="Email Address" class="w-full pl-12 p-4 rounded-2xl bg-white/50 dark:bg-slate-800/50 border border-white/50 dark:border-slate-700 focus:ring-2 focus:ring-indigo-500 focus:bg-white dark:focus:bg-slate-800 outline-none transition-all duration-300">
                         </div>
                     </div>
                     <textarea name="Message" id="message" required placeholder="Tell me about your project..." rows="3" class="w-full p-4 rounded-2xl bg-white/50 dark:bg-slate-800/50 border border-white/50 dark:border-slate-700 focus:ring-2 focus:ring-indigo-500 focus:bg-white dark:focus:bg-slate-800 outline-none transition-all duration-300"></textarea>
@@ -576,7 +576,7 @@
                     <input type="hidden" name="_template" value="table">
                     <!-- Auto-Reply To The Sender -->
                     <input type="hidden" name="_autoresponse" value="Thanks for reaching out! 😊 I've received your message and will get back to you soon. ✨">
-                    <input type="hidden" name="_replyto" value="{{Email}}">
+                    <input type="hidden" name="_replyto" value="{{email}}">
                     <!-- Anti-Spam -->
                     <input type="text" name="_honey" style="display: none;">
                     <div id="formFeedback" class="hidden text-sm font-semibold text-emerald-600 dark:text-emerald-400 px-2 animate-bounce">
