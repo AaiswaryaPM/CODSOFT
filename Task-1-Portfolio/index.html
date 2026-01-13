@@ -659,7 +659,7 @@
             <div id="contact" class="relative">
                 <div class="absolute -top-10 -right-10 w-32 h-32 bg-indigo-500/10 rounded-full blur-3xl"></div>
                 <h2 class="text-3xl md:text-4xl font-extrabold mb-6">Let's Connect</h2>
-                <form action="https://formsubmit.co/aaiswaribm.learning@gmail.com" method="POST" id="contactForm" class="space-y-4">
+                <form action="https://formsubmit.co/33ee0c5cb02cdd3c87b47f51b99ff04b" method="POST" id="contactForm" class="space-y-4">
                     <div class="space-y-4">
                         <div class="relative group">
                             <i data-lucide="user" class="absolute left-4 top-4 w-5 h-5 text-slate-400 group-focus-within:text-indigo-500 transition-colors"></i>
@@ -673,6 +673,9 @@
                     <textarea name="Message" id="message" required placeholder="Tell me about your project..." rows="3" class="w-full p-4 rounded-2xl bg-white/50 dark:bg-slate-800/50 border border-white/50 dark:border-slate-700 focus:ring-2 focus:ring-indigo-500 focus:bg-white dark:focus:bg-slate-800 outline-none transition-all duration-300"></textarea>
                     <input type="hidden" name="_subject" value="Portfolio Contact Message">
                     <input type="hidden" name="_template" value="table">
+                    <!-- Sends a copy to the sender and Auto-Reply -->
+                    <input type="hidden" name="_cc" value="{{Email}}">
+                    <input type="hidden" name="_autoresponse" value="Thanks for reaching out! I've received your meassage and will reply soon.">
                     <!-- Anti-Spam -->
                     <input type="text" name="_honey" style="display: none;">
                     <div id="formFeedback" class="hidden text-sm font-semibold text-emerald-600 dark:text-emerald-400 px-2 animate-bounce">
