@@ -1,0 +1,123 @@
+body {
+    background: radial-gradient(circle at top left, #e0e7ff, #f3e8ff, #ddd6fe);
+    scroll-behavior: smooth;
+    transition: background 0.3s ease;
+    overflow-x: hidden;
+}
+.dark body {
+    background: radial-gradient(circle at top left, #1e1b4b, #2e1065, #0f172a);
+}
+.glass-card {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 28px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+.dark .glass-card {
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #f8fafc;
+}
+.dark .glass-card:hover {
+    border-color: rgba(99, 102, 241, 0.4);
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.1);
+}
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    position: relative;
+}
+.floating-icon {
+    position: absolute;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0.4;
+    transition: transform 0.1s ease-out;
+}
+.profile-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+.profile-glow {
+    position: absolute;
+    inset: -15px;
+    background: linear-gradient(45deg, #6366f1, #a855f7, #ec4899);
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 70%;
+    filter: blur(25px);
+    opacity: 0.4;
+    animation: morph 8s linear infinite alternate;
+}
+.profile-frame {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    overflow: hidden;
+}
+.profile-frame:hover {
+    transform: scale(1.05) rotate(2deg);
+    border-radius: 24px;
+}
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+@keyframes morph {
+    0% { border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%; }
+    50% { border-radius: 50% 50% 33% 67% / 63% 33% 66% 37%; }
+    100% { border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%; }
+}
+.project-card {
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.project-card:hover {
+    transform: translateY(-8px);
+}
+.project-overlay {
+    background: linear-gradient(to top, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.4));
+    transform: translateY(100%);
+    transition: transform 0.4s ease-in-out;
+}
+.project-card:hover .project-overlay {
+    transform: translateY(0);
+}
+.img-placeholder {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+.dark .img-placeholder {
+    background: linear-gradient(90deg, #1e293b 25%, #334155 50%, #1e293b 75%);
+    background-size: 200% 100%;
+}
+@keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+#mobile-menu.active {
+    display: flex;
+    animation: slideDown 0.3s ease-out forwards;
+}
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+    animation: fadeIn 0.4s ease-out forwards;
+}
